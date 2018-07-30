@@ -1388,6 +1388,7 @@
                                 <segment title="전체 팀"/>
                             </segments>
                         </segmentedControl>
+                        <barButtonItem key="rightBarButtonItem" title="Item" id="YXP-Vu-4Zm"/>
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XLa-DE-at0" userLabel="First Responder" sceneMemberID="firstResponder"/>
