@@ -5,8 +5,8 @@
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
+        <development version="8000" identifier="xcode"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
-        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -35,6 +35,10 @@
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="_4maker" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="tiI-14-Yrl"/>
+                        <viewControllerLayoutGuide type="bottom" id="VLV-Ty-LMo"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -53,7 +57,6 @@
                             </searchBar>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="EbE-fP-kMZ">
                         <nil key="title"/>
@@ -685,11 +688,14 @@
         <scene sceneID="qVR-jT-qao">
             <objects>
                 <viewController id="kVJ-eX-0hc" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="riA-hK-07G"/>
+                        <viewControllerLayoutGuide type="bottom" id="SyM-Dw-Z5e"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="BMU-6m-8nI">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="zqy-aw-dqm"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mIR-Sf-JMd" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -700,6 +706,10 @@
         <scene sceneID="RZO-sj-XOZ">
             <objects>
                 <viewController id="fxj-lx-N0G" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vEY-Ne-4F4"/>
+                        <viewControllerLayoutGuide type="bottom" id="aLa-qc-DeE"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Cbr-4G-vsI">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -766,7 +776,6 @@
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="Pug-yb-6Be"/>
                     </view>
                     <navigationItem key="navigationItem" title="순위표" id="LQt-Ef-JuC"/>
                 </viewController>
@@ -1452,11 +1461,14 @@
         <scene sceneID="SRj-WI-WZb">
             <objects>
                 <viewController id="Vke-Sp-IGZ" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qhf-7e-5jk"/>
+                        <viewControllerLayoutGuide type="bottom" id="ro6-UJ-qow"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="PvS-1v-Hi3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="nD9-yZ-PKR"/>
                     </view>
                     <navigationItem key="navigationItem" title="구인/구팀" id="Rfy-2g-Eiw"/>
                 </viewController>
