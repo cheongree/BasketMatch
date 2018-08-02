@@ -12,6 +12,7 @@ struct Match {
     var myteam : Team
     var oppenentTeam: Team
     var matchDate: String
+    var matchLocation: String
     
     func matchDay() -> String {
         return String(self.matchDate[..<self.matchDate.index(self.matchDate.startIndex, offsetBy: 8)])

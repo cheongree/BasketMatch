@@ -12,10 +12,10 @@ import UIKit
 class MatchScheduleTableViewController: UITableViewController {
     
     var matches: [Match] = [
-        Match(myteam: Team(name: "CHICAGO", recruitingPosition: ["1", "3"], location: "서울시 강남구", rating: "1000", teamImage: "team1"), oppenentTeam: Team(name: "MIAMI", recruitingPosition: ["2"], location: "인천시 서구", rating: "1300", teamImage: "team2"), matchDate: "201808011530"),
-        Match(myteam: Team(name: "MIAMI", recruitingPosition: ["2"], location: "인천시 서구", rating: "1300", teamImage: "team2"), oppenentTeam: Team(name: "LA", recruitingPosition: ["4", "5"], location: "경기도 광명시", rating: "1200", teamImage: "team3"), matchDate: "201807031930"),
-        Match(myteam: Team(name: "LA", recruitingPosition: ["4", "5"], location: "경기도 광명시", rating: "1200", teamImage: "team3"), oppenentTeam: Team(name: "TORONTO", recruitingPosition: ["1", "3", "5"], location: "강원도 춘천시", rating: "1400", teamImage: "team4"), matchDate: "201803051720"),
-        Match(myteam: Team(name: "TORONTO", recruitingPosition: ["1", "3", "5"], location: "강원도 춘천시", rating: "1400", teamImage: "team4"), oppenentTeam: Team(name: "CHICAGO", recruitingPosition: ["1", "3"], location: "서울시 강남구", rating: "1000", teamImage: "team1"), matchDate: "201804061910")
+        Match(myteam: Team(name: "CHICAGO", recruitingPosition: ["1", "3"], location: "서울시 강남구", rating: "1000", teamImage: "team1"), oppenentTeam: Team(name: "MIAMI", recruitingPosition: ["2"], location: "인천시 서구", rating: "1300", teamImage: "team2"), matchDate: "201808011530", matchLocation: "성북구 안암동"),
+        Match(myteam: Team(name: "MIAMI", recruitingPosition: ["2"], location: "인천시 서구", rating: "1300", teamImage: "team2"), oppenentTeam: Team(name: "LA", recruitingPosition: ["4", "5"], location: "경기도 광명시", rating: "1200", teamImage: "team3"), matchDate: "201807031930", matchLocation: "노원구 중계동"),
+        Match(myteam: Team(name: "LA", recruitingPosition: ["4", "5"], location: "경기도 광명시", rating: "1200", teamImage: "team3"), oppenentTeam: Team(name: "TORONTO", recruitingPosition: ["1", "3", "5"], location: "강원도 춘천시", rating: "1400", teamImage: "team4"), matchDate: "201803051720", matchLocation: "도봉구 방학동"),
+        Match(myteam: Team(name: "TORONTO", recruitingPosition: ["1", "3", "5"], location: "강원도 춘천시", rating: "1400", teamImage: "team4"), oppenentTeam: Team(name: "CHICAGO", recruitingPosition: ["1", "3"], location: "서울시 강남구", rating: "1000", teamImage: "team1"), matchDate: "201804061910", matchLocation: "동대문구 제기동")
     ]
     
     @IBOutlet weak var teamSort: UISegmentedControl!
@@ -65,12 +65,18 @@ class MatchScheduleTableViewController: UITableViewController {
             cell.myTeamImage.image = UIImage(named: matches[indexPath.row].myteam.teamImage)
             cell.oppenentTeamImage.image = UIImage(named: matches[indexPath.row].oppenentTeam.teamImage)
             cell.matchDay.text = matches[indexPath.row].matchDay()
+            cell.location.text = matches[indexPath.row].matchLocation
+            cell.myTeamName.text = matches[indexPath.row].myteam.name
+            cell.opponentTeamName.text = matches[indexPath.row].oppenentTeam.name
             return cell
         } else {
             let cell = tableView.dequeueReusableCell(withIdentifier: "MatchScheduleCell", for: indexPath) as! MatchScheduleTableViewCell
             cell.myTeamImage.image = UIImage(named: matches[indexPath.row].myteam.teamImage)
             cell.oppenentTeamImage.image = UIImage(named: matches[indexPath.row].oppenentTeam.teamImage)
             cell.matchDay.text = matches[indexPath.row].matchDay()
+            cell.location.text = matches[indexPath.row].matchLocation
+            cell.myTeamName.text = matches[indexPath.row].myteam.name
+            cell.opponentTeamName.text = matches[indexPath.row].oppenentTeam.name
             return cell
         }
     }
