@@ -3,10 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24A29DEE2111B30A00EAD156 /* MatchScheduleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A29DED2111B30A00EAD156 /* MatchScheduleTableViewController.swift */; };
+		24A29DF02111B4AC00EAD156 /* MatchScheduleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A29DEF2111B4AC00EAD156 /* MatchScheduleTableViewCell.swift */; };
+		24A29DF22111B7E900EAD156 /* structFor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A29DF12111B7E900EAD156 /* structFor.swift */; };
+		24A7AD6E210F007700012B2D /* RecruitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A7AD6D210F007700012B2D /* RecruitViewController.swift */; };
+		24F6A43221117AA0007D1FD0 /* RecruitMemberTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F6A43121117AA0007D1FD0 /* RecruitMemberTableViewCell.swift */; };
+		24F6A434211183B6007D1FD0 /* RecruitTeamTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F6A433211183B6007D1FD0 /* RecruitTeamTableViewCell.swift */; };
 		C51BD25920F5D77B00B19AF5 /* DrawingCanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51BD24D20F5D77B00B19AF5 /* DrawingCanvasView.swift */; };
 		C51BD25A20F5D77B00B19AF5 /* CHContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51BD24E20F5D77B00B19AF5 /* CHContentViewController.swift */; };
 		C51BD25B20F5D77B00B19AF5 /* NavigationControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51BD24F20F5D77B00B19AF5 /* NavigationControllers.swift */; };
@@ -48,6 +54,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		24A29DED2111B30A00EAD156 /* MatchScheduleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchScheduleTableViewController.swift; sourceTree = "<group>"; };
+		24A29DEF2111B4AC00EAD156 /* MatchScheduleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchScheduleTableViewCell.swift; sourceTree = "<group>"; };
+		24A29DF12111B7E900EAD156 /* structFor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = structFor.swift; sourceTree = "<group>"; };
+		24A7AD6D210F007700012B2D /* RecruitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecruitViewController.swift; sourceTree = "<group>"; };
+		24F6A43121117AA0007D1FD0 /* RecruitMemberTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecruitMemberTableViewCell.swift; sourceTree = "<group>"; };
+		24F6A433211183B6007D1FD0 /* RecruitTeamTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecruitTeamTableViewCell.swift; sourceTree = "<group>"; };
 		C51BD24D20F5D77B00B19AF5 /* DrawingCanvasView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawingCanvasView.swift; sourceTree = "<group>"; };
 		C51BD24E20F5D77B00B19AF5 /* CHContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHContentViewController.swift; sourceTree = "<group>"; };
 		C51BD24F20F5D77B00B19AF5 /* NavigationControllers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationControllers.swift; sourceTree = "<group>"; };
@@ -150,6 +162,12 @@
 				C5FFE65120F328B6007984D6 /* AppDelegate.swift */,
 				C5FFE65320F328B6007984D6 /* ViewController.swift */,
 				C5FFE65520F328B6007984D6 /* Main.storyboard */,
+				24A29DED2111B30A00EAD156 /* MatchScheduleTableViewController.swift */,
+				24A29DEF2111B4AC00EAD156 /* MatchScheduleTableViewCell.swift */,
+				24A7AD6D210F007700012B2D /* RecruitViewController.swift */,
+				24A29DF12111B7E900EAD156 /* structFor.swift */,
+				24F6A433211183B6007D1FD0 /* RecruitTeamTableViewCell.swift */,
+				24F6A43121117AA0007D1FD0 /* RecruitMemberTableViewCell.swift */,
 				C5FFE65820F328B7007984D6 /* Assets.xcassets */,
 				C5FFE65A20F328B7007984D6 /* LaunchScreen.storyboard */,
 				C5FFE65D20F328B7007984D6 /* Info.plist */,
@@ -243,22 +261,19 @@
 				TargetAttributes = {
 					C5FFE64D20F328B6007984D6 = {
 						CreatedOnToolsVersion = 9.4.1;
-						ProvisioningStyle = Automatic;
 					};
 					C5FFE66120F328B7007984D6 = {
 						CreatedOnToolsVersion = 9.4.1;
-						ProvisioningStyle = Automatic;
 						TestTargetID = C5FFE64D20F328B6007984D6;
 					};
 					C5FFE66C20F328B7007984D6 = {
 						CreatedOnToolsVersion = 9.4.1;
-						ProvisioningStyle = Automatic;
 						TestTargetID = C5FFE64D20F328B6007984D6;
 					};
 				};
 			};
 			buildConfigurationList = C5FFE64920F328B6007984D6 /* Build configuration list for PBXProject "24maker" */;
-			compatibilityVersion = "Xcode 8.0";
+			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -311,19 +326,25 @@
 			files = (
 				C51BD25920F5D77B00B19AF5 /* DrawingCanvasView.swift in Sources */,
 				C51BD25D20F5D77B00B19AF5 /* CHViews.swift in Sources */,
+				24A29DF02111B4AC00EAD156 /* MatchScheduleTableViewCell.swift in Sources */,
 				C51BD25B20F5D77B00B19AF5 /* NavigationControllers.swift in Sources */,
 				C51BD26220F5D77B00B19AF5 /* CHModalViewController.swift in Sources */,
 				C5FFE65420F328B6007984D6 /* ViewController.swift in Sources */,
 				C51BD25F20F5D77B00B19AF5 /* SwipeActionTableViewCell.swift in Sources */,
 				C51BD26020F5D77B00B19AF5 /* FIlters.swift in Sources */,
 				C51BD26320F5D77B00B19AF5 /* CHControls.swift in Sources */,
+				24F6A43221117AA0007D1FD0 /* RecruitMemberTableViewCell.swift in Sources */,
 				C51BD26420F5D77B00B19AF5 /* RecordButton.swift in Sources */,
 				C5FFE65220F328B6007984D6 /* AppDelegate.swift in Sources */,
 				C51BD25C20F5D77B00B19AF5 /* CHPagingScrollViewController.swift in Sources */,
 				C51BD25A20F5D77B00B19AF5 /* CHContentViewController.swift in Sources */,
+				24F6A434211183B6007D1FD0 /* RecruitTeamTableViewCell.swift in Sources */,
 				C5FFE68020F34745007984D6 /* UIViewControllerModal.swift in Sources */,
+				24A29DF22111B7E900EAD156 /* structFor.swift in Sources */,
+				24A7AD6E210F007700012B2D /* RecruitViewController.swift in Sources */,
 				C5A0DFB120F48C16005ADFA0 /* UIViewControllerKeyboard.swift in Sources */,
 				C51BD26120F5D77B00B19AF5 /* CHTableViewControllers.swift in Sources */,
+				24A29DEE2111B30A00EAD156 /* MatchScheduleTableViewController.swift in Sources */,
 				C51BD25E20F5D77B00B19AF5 /* CHPickerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -487,7 +508,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -499,7 +521,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GM9CTD7L8J;
 				INFOPLIST_FILE = 24maker/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "kr.ac.korea.-4maker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -514,7 +539,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GM9CTD7L8J;
 				INFOPLIST_FILE = 24maker/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "kr.ac.korea.-4maker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -529,7 +557,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = 24makerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "kr.ac.korea.-4makerTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -545,7 +577,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = 24makerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "kr.ac.korea.-4makerTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -560,7 +596,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = 24makerUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "kr.ac.korea.-4makerUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -575,7 +615,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = 24makerUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "kr.ac.korea.-4makerUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
