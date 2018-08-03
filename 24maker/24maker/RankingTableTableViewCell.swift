@@ -10,6 +10,12 @@ import UIKit
 
 class RankingTableTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var teamRanking: UILabel!
+    @IBOutlet weak var teamImage: UIImageView!
+    @IBOutlet weak var teamName: UILabel!
+    @IBOutlet weak var teamRecord: UILabel!
+    @IBOutlet weak var teamRating: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

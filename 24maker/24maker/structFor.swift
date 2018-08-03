@@ -30,12 +30,25 @@ struct ScheduledMatch { // 확정된 경기
     }
 }
 
+struct MatchResult { // 치러진 경기의 결과를 위한 struct
+    var myteam : Team
+    var opponentTeam: Team
+    var matchDate: String
+    var matchLocation: String
+    
+    func matchDay() -> String {
+        return String(self.matchDate[..<self.matchDate.index(self.matchDate.startIndex, offsetBy: 8)])
+    }
+    
+}
+
 struct Team { // 팀
     var name: String
     var recruitingPosition: [String]
     var location: String
     var rating: String
     var teamImage: String = ""
+    
     
     func positionPrint() -> String {
         let result = self.recruitingPosition.map({pose -> String in
