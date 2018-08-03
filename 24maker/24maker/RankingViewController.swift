@@ -13,7 +13,7 @@ class RankingViewController: UIViewController, UITableViewDataSource, UITableVie
     @IBOutlet weak var rankingTable: UITableView!
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 1
+        return 2
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
