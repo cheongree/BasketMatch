@@ -64,7 +64,7 @@ class RecruitViewController: UIViewController, UITableViewDataSource, UITableVie
     }
     
     override func viewDidLoad() {
-        self.recruitTableView.rowHeight = 85 // cell 크기 설정
+        //self.recruitTableView.rowHeight = 85 // cell 크기 설정
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
