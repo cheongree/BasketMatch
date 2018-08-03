@@ -5,20 +5,32 @@
 //  Created by cscoi021 on 2018. 8. 1..
 //  Copyright © 2018년 Qyun. All rights reserved.
 //
+
 import UIKit
 import Foundation
 
-struct Match {
-    var myteam : Team
-    var oppenentTeam: Team
+struct Match { // 매칭을 구하는 중인 경기
+    var myTeam: Team
     var matchDate: String
+    var matchLocation: String
     
     func matchDay() -> String {
         return String(self.matchDate[..<self.matchDate.index(self.matchDate.startIndex, offsetBy: 8)])
     }
 }
 
-struct Team {
+struct ScheduledMatch { // 확정된 경기
+    var myteam : Team
+    var opponentTeam: Team
+    var matchDate: String
+    var matchLocation: String
+    
+    func matchDay() -> String {
+        return String(self.matchDate[..<self.matchDate.index(self.matchDate.startIndex, offsetBy: 8)])
+    }
+}
+
+struct Team { // 팀
     var name: String
     var recruitingPosition: [String]
     var location: String
@@ -42,7 +54,7 @@ struct Team {
     }
 }
 
-struct Player {
+struct Player { // 플레이어
     var name: String
     var position: [String]
     var location: String
