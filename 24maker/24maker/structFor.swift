@@ -48,7 +48,8 @@ struct Team { // 팀
     var location: String
     var rating: String
     var teamImage: String = ""
-    
+    var win: Int
+    var lose: Int
     
     func positionPrint() -> String {
         let result = self.recruitingPosition.map({pose -> String in
@@ -72,6 +73,9 @@ struct Player { // 플레이어
     var position: [String]
     var location: String
     var playerImage: String
+    var height: Int
+    var weight: Int
+    
     
     func positionPrint() -> String {
         let result = self.position.map({pose -> String in
