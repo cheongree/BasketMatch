@@ -151,6 +151,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="i8a-YC-JVQ"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="3aX-WN-QpG" appends="YES" id="x5a-4k-b46"/>
+                        </connections>
                     </view>
                     <navigationItem key="navigationItem" id="vCV-cw-CEU">
                         <nil key="title"/>
@@ -172,6 +175,11 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="F8k-fK-zwL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="3aX-WN-QpG">
+                    <connections>
+                        <action selector="keyboardDismiss:" destination="k1l-24-zb9" id="5Cf-kp-aU3"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="109.59999999999999" y="1438.8305847076463"/>
         </scene>

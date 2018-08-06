@@ -702,6 +702,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="9g2-yh-ZZE"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="keq-Cq-v9n" appends="YES" id="cd3-pa-GjZ"/>
+                        </connections>
                     </view>
                     <navigationItem key="navigationItem" title="대전 찾기" id="o5c-oa-5HE">
                         <barButtonItem key="rightBarButtonItem" title="글쓰기" id="fx1-Nf-Wlj"/>
@@ -711,6 +714,11 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VFD-zm-veN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="keq-Cq-v9n">
+                    <connections>
+                        <action selector="keyboardDismiss:" destination="yyK-aj-E4c" id="Qem-21-nCH"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="-759.20000000000005" y="1430.7346326836582"/>
         </scene>
