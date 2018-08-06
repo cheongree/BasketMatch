@@ -25,7 +25,6 @@ class MatchScheduleTableViewController: UITableViewController {
     }
     
     override func viewDidLoad() {
-        // self.matchTableView.rowHeight = 130
         super.viewDidLoad()
 
         // Uncomment the following line to preserve selection between presentations

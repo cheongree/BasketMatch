@@ -58,7 +58,6 @@ class MatchingListViewController: UIViewController, UITableViewDataSource, UITab
 
     
     override func viewDidLoad() {
-        self.MatchingListTable.rowHeight = 60 // cell 크기 설정
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
