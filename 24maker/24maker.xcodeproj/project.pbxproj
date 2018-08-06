@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		249E83D32118132300E8EDC7 /* RecruitProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249E83D22118132300E8EDC7 /* RecruitProfileViewController.swift */; };
+		249E83D9211814B400E8EDC7 /* TeamProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249E83D8211814B400E8EDC7 /* TeamProfileViewController.swift */; };
 		24A29DEE2111B30A00EAD156 /* MatchScheduleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A29DED2111B30A00EAD156 /* MatchScheduleTableViewController.swift */; };
 		24A29DF02111B4AC00EAD156 /* MatchScheduleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A29DEF2111B4AC00EAD156 /* MatchScheduleTableViewCell.swift */; };
 		24A29DF22111B7E900EAD156 /* structFor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A29DF12111B7E900EAD156 /* structFor.swift */; };
@@ -16,9 +18,6 @@
 		24D5A0A521154A9800802322 /* S3.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24D5A0A421154A9800802322 /* S3.storyboard */; };
 		24D5A0A721154AA300802322 /* S4.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24D5A0A621154AA300802322 /* S4.storyboard */; };
 		24D5A0A921154F3C00802322 /* More.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24D5A0A821154F3C00802322 /* More.storyboard */; };
-		24D5A0AB2115500F00802322 /* RecruitProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D5A0AA2115500E00802322 /* RecruitProfileViewController.swift */; };
-		24D5A0AD2115503600802322 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D5A0AC2115503500802322 /* ProfileViewController.swift */; };
-		24D5A0AF2115504900802322 /* TeamProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D5A0AE2115504000802322 /* TeamProfileViewController.swift */; };
 		24F6A43221117AA0007D1FD0 /* RecruitMemberTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F6A43121117AA0007D1FD0 /* RecruitMemberTableViewCell.swift */; };
 		24F6A434211183B6007D1FD0 /* RecruitTeamTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F6A433211183B6007D1FD0 /* RecruitTeamTableViewCell.swift */; };
 		2C305723211301DD008CAB14 /* MatchingListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C305722211301DD008CAB14 /* MatchingListViewController.swift */; };
@@ -66,6 +65,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		249E83D22118132300E8EDC7 /* RecruitProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecruitProfileViewController.swift; sourceTree = "<group>"; };
+		249E83D8211814B400E8EDC7 /* TeamProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamProfileViewController.swift; sourceTree = "<group>"; };
 		24A29DED2111B30A00EAD156 /* MatchScheduleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchScheduleTableViewController.swift; sourceTree = "<group>"; };
 		24A29DEF2111B4AC00EAD156 /* MatchScheduleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchScheduleTableViewCell.swift; sourceTree = "<group>"; };
 		24A29DF12111B7E900EAD156 /* structFor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = structFor.swift; sourceTree = "<group>"; };
@@ -75,9 +76,6 @@
 		24D5A0A421154A9800802322 /* S3.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = S3.storyboard; sourceTree = "<group>"; };
 		24D5A0A621154AA300802322 /* S4.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = S4.storyboard; sourceTree = "<group>"; };
 		24D5A0A821154F3C00802322 /* More.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = More.storyboard; sourceTree = "<group>"; };
-		24D5A0AA2115500E00802322 /* RecruitProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RecruitProfileViewController.swift; path = "../../../../Desktop/aabbcc/BasketMatch-mast/24maker/24maker/RecruitProfileViewController.swift"; sourceTree = "<group>"; };
-		24D5A0AC2115503500802322 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileViewController.swift; path = "../../../../Desktop/aabbcc/BasketMatch-mast/24maker/24maker/ProfileViewController.swift"; sourceTree = "<group>"; };
-		24D5A0AE2115504000802322 /* TeamProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TeamProfileViewController.swift; path = "../../../../Desktop/aabbcc/BasketMatch-mast/24maker/24maker/TeamProfileViewController.swift"; sourceTree = "<group>"; };
 		24F6A43121117AA0007D1FD0 /* RecruitMemberTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecruitMemberTableViewCell.swift; sourceTree = "<group>"; };
 		24F6A433211183B6007D1FD0 /* RecruitTeamTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecruitTeamTableViewCell.swift; sourceTree = "<group>"; };
 		2C305722211301DD008CAB14 /* MatchingListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchingListViewController.swift; sourceTree = "<group>"; };
@@ -190,11 +188,10 @@
 				24D5A0A021154A7F00802322 /* S1.storyboard */,
 				24D5A0A221154A8C00802322 /* S2.storyboard */,
 				24D5A0A421154A9800802322 /* S3.storyboard */,
+				249E83D8211814B400E8EDC7 /* TeamProfileViewController.swift */,
+				249E83D22118132300E8EDC7 /* RecruitProfileViewController.swift */,
 				24D5A0A621154AA300802322 /* S4.storyboard */,
 				24D5A0A821154F3C00802322 /* More.storyboard */,
-				24D5A0AE2115504000802322 /* TeamProfileViewController.swift */,
-				24D5A0AC2115503500802322 /* ProfileViewController.swift */,
-				24D5A0AA2115500E00802322 /* RecruitProfileViewController.swift */,
 				2CF3F67221142DA500F55BF1 /* RankingViewController.swift */,
 				2CF3F66E211429E900F55BF1 /* RankingTableTableViewCell.swift */,
 				2C305722211301DD008CAB14 /* MatchingListViewController.swift */,
@@ -373,8 +370,9 @@
 				C51BD25D20F5D77B00B19AF5 /* CHViews.swift in Sources */,
 				24A29DF02111B4AC00EAD156 /* MatchScheduleTableViewCell.swift in Sources */,
 				C51BD25B20F5D77B00B19AF5 /* NavigationControllers.swift in Sources */,
+				249E83D9211814B400E8EDC7 /* TeamProfileViewController.swift in Sources */,
 				C51BD26220F5D77B00B19AF5 /* CHModalViewController.swift in Sources */,
-				24D5A0AB2115500F00802322 /* RecruitProfileViewController.swift in Sources */,
+				249E83D32118132300E8EDC7 /* RecruitProfileViewController.swift in Sources */,
 				C5FFE65420F328B6007984D6 /* ViewController.swift in Sources */,
 				C51BD25F20F5D77B00B19AF5 /* SwipeActionTableViewCell.swift in Sources */,
 				C51BD26020F5D77B00B19AF5 /* FIlters.swift in Sources */,
@@ -386,13 +384,11 @@
 				C51BD25A20F5D77B00B19AF5 /* CHContentViewController.swift in Sources */,
 				2CF3F67321142DA500F55BF1 /* RankingViewController.swift in Sources */,
 				24F6A434211183B6007D1FD0 /* RecruitTeamTableViewCell.swift in Sources */,
-				24D5A0AD2115503600802322 /* ProfileViewController.swift in Sources */,
 				C5FFE68020F34745007984D6 /* UIViewControllerModal.swift in Sources */,
 				24A29DF22111B7E900EAD156 /* structFor.swift in Sources */,
 				2C305723211301DD008CAB14 /* MatchingListViewController.swift in Sources */,
 				24A7AD6E210F007700012B2D /* RecruitViewController.swift in Sources */,
 				C5A0DFB120F48C16005ADFA0 /* UIViewControllerKeyboard.swift in Sources */,
-				24D5A0AF2115504900802322 /* TeamProfileViewController.swift in Sources */,
 				2C305725211306FE008CAB14 /* MatchingListTableViewCell.swift in Sources */,
 				C51BD26120F5D77B00B19AF5 /* CHTableViewControllers.swift in Sources */,
 				24A29DEE2111B30A00EAD156 /* MatchScheduleTableViewController.swift in Sources */,

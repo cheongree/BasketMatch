@@ -232,6 +232,9 @@
                         <viewLayoutGuide key="safeArea" id="jWz-jB-wqF"/>
                     </view>
                     <connections>
+                        <outlet property="TotalGamesPlayed" destination="kxF-ho-qS4" id="htc-gZ-Xhr"/>
+                        <outlet property="TotalLose" destination="9Sf-0O-O1X" id="zGV-CG-hDM"/>
+                        <outlet property="TotalWin" destination="s9M-ay-fr2" id="r8f-9i-gbF"/>
                         <outlet property="lose" destination="9Sf-0O-O1X" id="fzx-zW-8VS"/>
                         <outlet property="total" destination="kxF-ho-qS4" id="iLZ-yc-Tbr"/>
                         <outlet property="win" destination="s9M-ay-fr2" id="HBH-JI-fQW"/>
