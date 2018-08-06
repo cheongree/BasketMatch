@@ -83,7 +83,6 @@
                                             <outlet property="rating" destination="Ciq-Dn-hdc" id="Hy3-hV-qAo"/>
                                             <outlet property="teamImage" destination="Kw3-Qv-k3f" id="tJc-3L-tAF"/>
                                             <outlet property="teamName" destination="5c5-Fe-Gy5" id="CK3-uq-3jT"/>
-                                            <segue destination="N4W-BB-G44" kind="show" identifier="RecruitTeamSegue" id="YGt-wb-wuB"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="RecruitTeamCell" rowHeight="80" id="j47-D6-GX7" customClass="RecruitTeamTableViewCell" customModule="_4maker" customModuleProvider="target">
@@ -194,56 +193,6 @@
             </objects>
             <point key="canvasLocation" x="110" y="608"/>
         </scene>
-        <!--Team Profile View Controller-->
-        <scene sceneID="reM-To-XEd">
-            <objects>
-                <viewController storyboardIdentifier="TeamProfileViewController" id="N4W-BB-G44" customClass="TeamProfileViewController" customModule="_4maker" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="WbD-fo-5KL">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CHI" translatesAutoresizingMaskIntoConstraints="NO" id="Vls-Ss-0cn">
-                                <rect key="frame" x="109" y="65" width="157" height="161"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="win" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s9M-ay-fr2">
-                                <rect key="frame" x="166" y="266" width="42" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="lose" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Sf-0O-O1X">
-                                <rect key="frame" x="267" y="266" width="42" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="total" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kxF-ho-qS4">
-                                <rect key="frame" x="61" y="266" width="42" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="jWz-jB-wqF"/>
-                    </view>
-                    <connections>
-                        <outlet property="TotalGamesPlayed" destination="kxF-ho-qS4" id="htc-gZ-Xhr"/>
-                        <outlet property="TotalLose" destination="9Sf-0O-O1X" id="zGV-CG-hDM"/>
-                        <outlet property="TotalWin" destination="s9M-ay-fr2" id="r8f-9i-gbF"/>
-                        <outlet property="lose" destination="9Sf-0O-O1X" id="fzx-zW-8VS"/>
-                        <outlet property="total" destination="kxF-ho-qS4" id="iLZ-yc-Tbr"/>
-                        <outlet property="win" destination="s9M-ay-fr2" id="HBH-JI-fQW"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="r7u-YA-FOF" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1268" y="1439"/>
-        </scene>
         <!--Recruit Profile View Controller-->
         <scene sceneID="vCi-cP-n8r">
             <objects>
@@ -327,7 +276,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="CHI" width="1014" height="1024"/>
         <image name="fat" width="1024" height="1024"/>
         <image name="want" width="24" height="24"/>
     </resources>

@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		249E83D32118132300E8EDC7 /* RecruitProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249E83D22118132300E8EDC7 /* RecruitProfileViewController.swift */; };
-		249E83D9211814B400E8EDC7 /* TeamProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249E83D8211814B400E8EDC7 /* TeamProfileViewController.swift */; };
 		24A29DEE2111B30A00EAD156 /* MatchScheduleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A29DED2111B30A00EAD156 /* MatchScheduleTableViewController.swift */; };
 		24A29DF02111B4AC00EAD156 /* MatchScheduleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A29DEF2111B4AC00EAD156 /* MatchScheduleTableViewCell.swift */; };
 		24A29DF22111B7E900EAD156 /* structFor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A29DF12111B7E900EAD156 /* structFor.swift */; };
@@ -66,7 +65,6 @@
 
 /* Begin PBXFileReference section */
 		249E83D22118132300E8EDC7 /* RecruitProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecruitProfileViewController.swift; sourceTree = "<group>"; };
-		249E83D8211814B400E8EDC7 /* TeamProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamProfileViewController.swift; sourceTree = "<group>"; };
 		24A29DED2111B30A00EAD156 /* MatchScheduleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchScheduleTableViewController.swift; sourceTree = "<group>"; };
 		24A29DEF2111B4AC00EAD156 /* MatchScheduleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchScheduleTableViewCell.swift; sourceTree = "<group>"; };
 		24A29DF12111B7E900EAD156 /* structFor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = structFor.swift; sourceTree = "<group>"; };
@@ -190,7 +188,6 @@
 				24D5A0A421154A9800802322 /* S3.storyboard */,
 				24D5A0A621154AA300802322 /* S4.storyboard */,
 				24D5A0A821154F3C00802322 /* More.storyboard */,
-				249E83D8211814B400E8EDC7 /* TeamProfileViewController.swift */,
 				249E83D22118132300E8EDC7 /* RecruitProfileViewController.swift */,
 				2CF3F67221142DA500F55BF1 /* RankingViewController.swift */,
 				2CF3F66E211429E900F55BF1 /* RankingTableTableViewCell.swift */,
@@ -370,7 +367,6 @@
 				C51BD25D20F5D77B00B19AF5 /* CHViews.swift in Sources */,
 				24A29DF02111B4AC00EAD156 /* MatchScheduleTableViewCell.swift in Sources */,
 				C51BD25B20F5D77B00B19AF5 /* NavigationControllers.swift in Sources */,
-				249E83D9211814B400E8EDC7 /* TeamProfileViewController.swift in Sources */,
 				C51BD26220F5D77B00B19AF5 /* CHModalViewController.swift in Sources */,
 				249E83D32118132300E8EDC7 /* RecruitProfileViewController.swift in Sources */,
 				C5FFE65420F328B6007984D6 /* ViewController.swift in Sources */,
