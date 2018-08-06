@@ -35,6 +35,7 @@
 		C51BD26220F5D77B00B19AF5 /* CHModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51BD25620F5D77B00B19AF5 /* CHModalViewController.swift */; };
 		C51BD26320F5D77B00B19AF5 /* CHControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51BD25720F5D77B00B19AF5 /* CHControls.swift */; };
 		C51BD26420F5D77B00B19AF5 /* RecordButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51BD25820F5D77B00B19AF5 /* RecordButton.swift */; };
+		C570BC34211827BE00FCF3FE /* TeamProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C570BC33211827BD00FCF3FE /* TeamProfileViewController.swift */; };
 		C5A0DFB120F48C16005ADFA0 /* UIViewControllerKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A0DFB020F48C15005ADFA0 /* UIViewControllerKeyboard.swift */; };
 		C5FFE65220F328B6007984D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5FFE65120F328B6007984D6 /* AppDelegate.swift */; };
 		C5FFE65420F328B6007984D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5FFE65320F328B6007984D6 /* ViewController.swift */; };
@@ -92,6 +93,7 @@
 		C51BD25620F5D77B00B19AF5 /* CHModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHModalViewController.swift; sourceTree = "<group>"; };
 		C51BD25720F5D77B00B19AF5 /* CHControls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHControls.swift; sourceTree = "<group>"; };
 		C51BD25820F5D77B00B19AF5 /* RecordButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordButton.swift; sourceTree = "<group>"; };
+		C570BC33211827BD00FCF3FE /* TeamProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamProfileViewController.swift; sourceTree = "<group>"; };
 		C5A0DFB020F48C15005ADFA0 /* UIViewControllerKeyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerKeyboard.swift; sourceTree = "<group>"; };
 		C5FFE64E20F328B6007984D6 /* 24maker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 24maker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5FFE65120F328B6007984D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -191,6 +193,7 @@
 				249E83D22118132300E8EDC7 /* RecruitProfileViewController.swift */,
 				2CF3F67221142DA500F55BF1 /* RankingViewController.swift */,
 				2CF3F66E211429E900F55BF1 /* RankingTableTableViewCell.swift */,
+				C570BC33211827BD00FCF3FE /* TeamProfileViewController.swift */,
 				2C305722211301DD008CAB14 /* MatchingListViewController.swift */,
 				24A29DED2111B30A00EAD156 /* MatchScheduleTableViewController.swift */,
 				24A29DEF2111B4AC00EAD156 /* MatchScheduleTableViewCell.swift */,
@@ -367,6 +370,7 @@
 				C51BD25D20F5D77B00B19AF5 /* CHViews.swift in Sources */,
 				24A29DF02111B4AC00EAD156 /* MatchScheduleTableViewCell.swift in Sources */,
 				C51BD25B20F5D77B00B19AF5 /* NavigationControllers.swift in Sources */,
+				C570BC34211827BE00FCF3FE /* TeamProfileViewController.swift in Sources */,
 				C51BD26220F5D77B00B19AF5 /* CHModalViewController.swift in Sources */,
 				249E83D32118132300E8EDC7 /* RecruitProfileViewController.swift in Sources */,
 				C5FFE65420F328B6007984D6 /* ViewController.swift in Sources */,

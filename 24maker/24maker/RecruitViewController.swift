@@ -66,6 +66,7 @@ class RecruitViewController: UIViewController, UITableViewDataSource, UITableVie
     override func viewDidLoad() {
         //self.recruitTableView.rowHeight = 85 // cell 크기 설정
         super.viewDidLoad()
+        self.navigationController?.navigationBar.tintColor = UIColor.white
         // Do any additional setup after loading the view.
     }
 
