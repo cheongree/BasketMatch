@@ -298,9 +298,6 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
-                                        <connections>
-                                            <segue destination="9RW-Ea-ohR" kind="show" id="oQ5-A8-nLy"/>
-                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="80" id="cJO-EO-WiU">
                                         <rect key="frame" x="0.0" y="480" width="375" height="80"/>
@@ -367,7 +364,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8k5-fN-rG8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-759" y="2172"/>
+            <point key="canvasLocation" x="-1807" y="2246"/>
         </scene>
         <!--대전 신청-->
         <scene sceneID="Qbe-9U-E5F">
@@ -569,7 +566,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="y4u-gS-Knf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-759" y="2972"/>
+            <point key="canvasLocation" x="-759" y="2207"/>
         </scene>
         <!--매칭-->
         <scene sceneID="7nq-JU-wSc">
@@ -592,7 +589,7 @@
             </objects>
             <point key="canvasLocation" x="-759" y="608"/>
         </scene>
-        <!--Matching List View Controller-->
+        <!--대전 찾기-->
         <scene sceneID="TCZ-ZR-aAn">
             <objects>
                 <viewController id="yyK-aj-E4c" customClass="MatchingListViewController" customModule="_4maker" customModuleProvider="target" sceneMemberID="viewController">
@@ -693,6 +690,7 @@
                                             <outlet property="rating" destination="NaR-bi-GfZ" id="C1T-cM-vnG"/>
                                             <outlet property="teamImage" destination="n7U-Qf-aFX" id="MeD-JK-D69"/>
                                             <outlet property="teamName" destination="9BX-SE-v26" id="DVs-Sq-kAd"/>
+                                            <segue destination="9RW-Ea-ohR" kind="show" id="qyP-V4-LUe"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -705,26 +703,11 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="9g2-yh-ZZE"/>
                     </view>
-                    <navigationItem key="navigationItem" id="o5c-oa-5HE">
-                        <nil key="title"/>
-                        <barButtonItem key="leftBarButtonItem" systemItem="compose" id="KUX-an-xEX"/>
-                        <segmentedControl key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="pa8-Ez-AS2">
-                            <rect key="frame" x="114.5" y="7.5" width="146" height="29"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <segments>
-                                <segment title="거리"/>
-                                <segment title="시간"/>
-                                <segment title="점수"/>
-                            </segments>
-                            <connections>
-                                <action selector="matchingListSegmented:" destination="yyK-aj-E4c" eventType="valueChanged" id="TH5-2x-sw0"/>
-                            </connections>
-                        </segmentedControl>
-                        <barButtonItem key="rightBarButtonItem" title="상세검색" id="fx1-Nf-Wlj"/>
+                    <navigationItem key="navigationItem" title="대전 찾기" id="o5c-oa-5HE">
+                        <barButtonItem key="rightBarButtonItem" title="글쓰기" id="fx1-Nf-Wlj"/>
                     </navigationItem>
                     <connections>
                         <outlet property="MatchingListTable" destination="Z4h-5w-pfb" id="ByI-Xl-GDQ"/>
-                        <outlet property="segementedControl" destination="pa8-Ez-AS2" id="eOx-q1-dul"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VFD-zm-veN" userLabel="First Responder" sceneMemberID="firstResponder"/>

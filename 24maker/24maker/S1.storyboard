@@ -40,8 +40,8 @@
                                             </constraints>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="7월 12일 목요일" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8dH-hv-BWw">
-                                            <rect key="frame" x="139" y="66" width="97" height="18"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                            <rect key="frame" x="130.5" y="64" width="115.5" height="21.5"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
@@ -64,14 +64,14 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="laG-eT-0yh">
-                                            <rect key="frame" x="174" y="100.5" width="28.5" height="13.5"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                            <rect key="frame" x="170" y="97" width="35.5" height="17"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="9:00PM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xrf-U2-u3L">
-                                            <rect key="frame" x="167" y="52" width="41.5" height="13.5"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                            <rect key="frame" x="162.5" y="48" width="51" height="17"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
@@ -88,7 +88,7 @@
                                         <constraint firstItem="laG-eT-0yh" firstAttribute="centerX" secondItem="QQt-KU-sJX" secondAttribute="centerX" id="Yla-Zg-quG"/>
                                         <constraint firstItem="8dH-hv-BWw" firstAttribute="centerY" secondItem="QQt-KU-sJX" secondAttribute="centerY" id="fUg-fo-LIm"/>
                                         <constraint firstItem="TCs-XB-ywR" firstAttribute="top" secondItem="QQt-KU-sJX" secondAttribute="topMargin" constant="12" id="jbc-UN-cXr"/>
-                                        <constraint firstItem="Xrf-U2-u3L" firstAttribute="top" secondItem="QQt-KU-sJX" secondAttribute="topMargin" constant="41" id="lJE-5U-X1F"/>
+                                        <constraint firstItem="Xrf-U2-u3L" firstAttribute="top" secondItem="QQt-KU-sJX" secondAttribute="topMargin" constant="37" placeholder="YES" id="lJE-5U-X1F"/>
                                         <constraint firstItem="NUu-6v-8uS" firstAttribute="centerY" secondItem="TCs-XB-ywR" secondAttribute="centerY" id="wD2-C5-kD1"/>
                                         <constraint firstItem="8dH-hv-BWw" firstAttribute="centerX" secondItem="QQt-KU-sJX" secondAttribute="centerX" id="x06-Od-Cph"/>
                                     </constraints>
@@ -113,7 +113,7 @@
                     <navigationItem key="navigationItem" id="rYE-B5-4xx">
                         <nil key="title"/>
                         <segmentedControl key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" id="lyF-xB-dqF">
-                            <rect key="frame" x="73" y="7" width="229" height="30"/>
+                            <rect key="frame" x="72.5" y="7" width="230" height="30"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <segments>
                                 <segment title="나의 팀"/>
