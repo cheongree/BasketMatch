@@ -366,7 +366,7 @@
             </objects>
             <point key="canvasLocation" x="-1807" y="2246"/>
         </scene>
-        <!--대전 신청-->
+        <!--경기정보-->
         <scene sceneID="Qbe-9U-E5F">
             <objects>
                 <tableViewController id="9RW-Ea-ohR" sceneMemberID="viewController">
@@ -405,17 +405,6 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bluebox-1" translatesAutoresizingMaskIntoConstraints="NO" id="46p-YJ-hdO">
-                                                    <rect key="frame" x="173" y="136" width="64" height="31"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="대전 신청" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oRq-4d-SqF">
-                                                    <rect key="frame" x="180" y="144" width="49" height="16"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="13"/>
-                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="TOR" translatesAutoresizingMaskIntoConstraints="NO" id="rPu-Gf-X6R">
                                                     <rect key="frame" x="29" y="49" width="110" height="110"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -425,14 +414,14 @@
                                                         </userDefinedRuntimeAttribute>
                                                     </userDefinedRuntimeAttributes>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Toronto Raptors" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FK4-gI-HY4">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Toronto Raptors" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FK4-gI-HY4" userLabel="teamName">
                                                     <rect key="frame" x="173" y="52" width="172" height="35"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1990" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bgK-nY-og8">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1990" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bgK-nY-og8" userLabel="rating">
                                                     <rect key="frame" x="173" y="42" width="36" height="18"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="15"/>
@@ -558,8 +547,8 @@
                             <outlet property="delegate" destination="9RW-Ea-ohR" id="eqA-N0-cAi"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="대전 신청" id="W5k-T0-8W8">
-                        <barButtonItem key="rightBarButtonItem" title="message" image="message" id="nAJ-LB-Qlm">
+                    <navigationItem key="navigationItem" title="경기정보" id="W5k-T0-8W8">
+                        <barButtonItem key="rightBarButtonItem" title="대전신청" id="nAJ-LB-Qlm">
                             <inset key="imageInsets" minX="0.0" minY="0.0" maxX="-6" maxY="0.0"/>
                         </barButtonItem>
                     </navigationItem>
@@ -722,6 +711,21 @@
             </objects>
             <point key="canvasLocation" x="-759.20000000000005" y="1430.7346326836582"/>
         </scene>
+        <!--Match Making View Controller-->
+        <scene sceneID="EPy-b3-OBE">
+            <objects>
+                <viewController id="uSe-g1-z9M" customClass="MatchMakingViewController" customModule="_4maker" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kBs-ge-rre">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="48d-ye-9sc"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dsU-2K-4oW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="201" y="1436"/>
+        </scene>
     </scenes>
     <resources>
         <image name="GSW" width="250" height="305"/>
@@ -730,11 +734,9 @@
         <image name="MIA" width="185" height="255"/>
         <image name="PHI" width="657" height="645"/>
         <image name="TOR" width="256" height="256"/>
-        <image name="bluebox-1" width="16" height="16"/>
         <image name="down" width="40" height="40"/>
         <image name="map" width="642" height="470"/>
         <image name="matching" width="24" height="24"/>
-        <image name="message" width="40" height="40"/>
         <image name="point" width="64" height="64"/>
     </resources>
 </document>

@@ -37,6 +37,7 @@
 		C51BD26420F5D77B00B19AF5 /* RecordButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51BD25820F5D77B00B19AF5 /* RecordButton.swift */; };
 		C570BC34211827BE00FCF3FE /* TeamProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C570BC33211827BD00FCF3FE /* TeamProfileViewController.swift */; };
 		C570BC36211969E900FCF3FE /* Members.swift in Sources */ = {isa = PBXBuildFile; fileRef = C570BC35211969E900FCF3FE /* Members.swift */; };
+		C570BC38211980F200FCF3FE /* MatchMakingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C570BC37211980F200FCF3FE /* MatchMakingViewController.swift */; };
 		C5A0DFB120F48C16005ADFA0 /* UIViewControllerKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A0DFB020F48C15005ADFA0 /* UIViewControllerKeyboard.swift */; };
 		C5FFE65220F328B6007984D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5FFE65120F328B6007984D6 /* AppDelegate.swift */; };
 		C5FFE65420F328B6007984D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5FFE65320F328B6007984D6 /* ViewController.swift */; };
@@ -96,6 +97,7 @@
 		C51BD25820F5D77B00B19AF5 /* RecordButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordButton.swift; sourceTree = "<group>"; };
 		C570BC33211827BD00FCF3FE /* TeamProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamProfileViewController.swift; sourceTree = "<group>"; };
 		C570BC35211969E900FCF3FE /* Members.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Members.swift; sourceTree = "<group>"; };
+		C570BC37211980F200FCF3FE /* MatchMakingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchMakingViewController.swift; sourceTree = "<group>"; };
 		C5A0DFB020F48C15005ADFA0 /* UIViewControllerKeyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerKeyboard.swift; sourceTree = "<group>"; };
 		C5FFE64E20F328B6007984D6 /* 24maker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 24maker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5FFE65120F328B6007984D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -193,6 +195,7 @@
 				24D5A0A421154A9800802322 /* S3.storyboard */,
 				24D5A0A621154AA300802322 /* S4.storyboard */,
 				24D5A0A821154F3C00802322 /* More.storyboard */,
+				C570BC37211980F200FCF3FE /* MatchMakingViewController.swift */,
 				249E83D22118132300E8EDC7 /* RecruitProfileViewController.swift */,
 				2CF3F67221142DA500F55BF1 /* RankingViewController.swift */,
 				2CF3F66E211429E900F55BF1 /* RankingTableTableViewCell.swift */,
@@ -389,6 +392,7 @@
 				2CF3F67321142DA500F55BF1 /* RankingViewController.swift in Sources */,
 				24F6A434211183B6007D1FD0 /* RecruitTeamTableViewCell.swift in Sources */,
 				C5FFE68020F34745007984D6 /* UIViewControllerModal.swift in Sources */,
+				C570BC38211980F200FCF3FE /* MatchMakingViewController.swift in Sources */,
 				24A29DF22111B7E900EAD156 /* structFor.swift in Sources */,
 				2C305723211301DD008CAB14 /* MatchingListViewController.swift in Sources */,
 				24A7AD6E210F007700012B2D /* RecruitViewController.swift in Sources */,

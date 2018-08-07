@@ -36,3 +36,10 @@ var scheduledMatches: [ScheduledMatch] = [
     ScheduledMatch(myteam: Team(name: "닥터바스켓", recruitingPosition: ["1", "3", "5"], location: "강원도 춘천시", rating: "1400", teamImage: "team4", win: 13, lose: 3), opponentTeam: Team(name: "아울스", recruitingPosition: ["1", "3"], location: "서울시 강남구", rating: "1000", teamImage: "team1", win: 3, lose: 1), matchDate: "201804061910", matchLocation: "동대문구 제기동")
 ]
 
+//extension DateFormatter {
+//    func convertStr(_ str: String) -> Date {
+//        self.dateFormat = "yyyyMMdd"
+//        return self.date(from: str)
+//    }
+//}
+

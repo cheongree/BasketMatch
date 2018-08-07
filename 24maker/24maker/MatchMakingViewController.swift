@@ -1,29 +1,18 @@
 //
-//  TeamProfileViewController.swift
+//  MatchMakingViewController.swift
 //  24maker
 //
-//  Created by Qyun on 06/08/2018.
+//  Created by Qyun on 07/08/2018.
 //  Copyright © 2018 Qyun. All rights reserved.
 //
 
 import UIKit
 
-class TeamProfileViewController: UIViewController {
+class MatchMakingViewController: UIViewController {
 
-    @IBOutlet weak var teamName: UILabel!
-    @IBOutlet weak var location: UILabel!
-    @IBOutlet weak var teamRating: UILabel!
-    @IBOutlet weak var total: UILabel!
-    @IBOutlet weak var win: UILabel!
-    @IBOutlet weak var lose: UILabel!
-    
-
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.navigationController?.navigationBar.tintColor = UIColor.white
-        
+
         // Do any additional setup after loading the view.
     }
 
