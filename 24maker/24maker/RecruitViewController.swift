@@ -78,7 +78,15 @@ class RecruitViewController: UIViewController, UITableViewDataSource, UITableVie
         // Dispose of any resources that can be recreated.
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let indexPath = recruitTableView.indexPathForSelectedRow,
+            let detailVC = segue.destination as? TeamProfileViewController {
+                let selectedTeam : Team = teams[indexPath.row]
+                detailVC.team = selectedTeam
+        }
+    }
     
+
     
     
     //코드 짜는중.....

@@ -16,6 +16,9 @@ class TeamProfileViewController: UIViewController {
     @IBOutlet weak var total: UILabel!
     @IBOutlet weak var win: UILabel!
     @IBOutlet weak var lose: UILabel!
+    @IBOutlet weak var teamImage: UIImageView!
+    
+    var team : Team?
     
 //    var matches: [Match] = [ // 예시 데이터
 //        Match(myTeam: Team(name: "아울스", recruitingPosition: ["1", "3"], location: "서울시 강남구", rating: "1000", teamImage: "team1", win: 3, lose: 1), matchDate: "201805011350", matchLocation: "서울시 강남구"),
@@ -24,6 +27,15 @@ class TeamProfileViewController: UIViewController {
 //        Match(myTeam: Team(name: "닥터바스켓", recruitingPosition: ["1", "3", "5"], location: "강원도 춘천시", rating: "1400", teamImage: "team4", win: 13, lose: 3), matchDate: "201805011350", matchLocation: "강원도 춘천시")
 //    ]
     
+    override func viewWillAppear(_ animated: Bool) {
+        teamName.text = team?.name
+        location.text = team?.location
+        teamRating.text = team?.rating
+        total.text = String((team?.win)! + (team?.lose)!)
+        win.text = String((team?.win)!)
+        lose.text = String((team?.lose)!)
+        teamImage.image = UIImage(named: (team?.teamImage)!)
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
