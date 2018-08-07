@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2461AB0F21197FF000897262 /* teamProfile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2461AB0E21197FF000897262 /* teamProfile.storyboard */; };
 		249E83D32118132300E8EDC7 /* RecruitProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249E83D22118132300E8EDC7 /* RecruitProfileViewController.swift */; };
 		24A29DEE2111B30A00EAD156 /* MatchScheduleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A29DED2111B30A00EAD156 /* MatchScheduleTableViewController.swift */; };
 		24A29DF02111B4AC00EAD156 /* MatchScheduleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A29DEF2111B4AC00EAD156 /* MatchScheduleTableViewCell.swift */; };
@@ -67,6 +68,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2461AB0E21197FF000897262 /* teamProfile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = teamProfile.storyboard; sourceTree = "<group>"; };
 		249E83D22118132300E8EDC7 /* RecruitProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecruitProfileViewController.swift; sourceTree = "<group>"; };
 		24A29DED2111B30A00EAD156 /* MatchScheduleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchScheduleTableViewController.swift; sourceTree = "<group>"; };
 		24A29DEF2111B4AC00EAD156 /* MatchScheduleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchScheduleTableViewCell.swift; sourceTree = "<group>"; };
@@ -193,6 +195,7 @@
 				24D5A0A021154A7F00802322 /* S1.storyboard */,
 				24D5A0A221154A8C00802322 /* S2.storyboard */,
 				24D5A0A421154A9800802322 /* S3.storyboard */,
+				2461AB0E21197FF000897262 /* teamProfile.storyboard */,
 				24D5A0A621154AA300802322 /* S4.storyboard */,
 				24D5A0A821154F3C00802322 /* More.storyboard */,
 				C570BC37211980F200FCF3FE /* MatchMakingViewController.swift */,
@@ -347,6 +350,7 @@
 				C5FFE65920F328B7007984D6 /* Assets.xcassets in Resources */,
 				24D5A0A321154A8C00802322 /* S2.storyboard in Resources */,
 				C5FFE65720F328B6007984D6 /* Main.storyboard in Resources */,
+				2461AB0F21197FF000897262 /* teamProfile.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,11 +10,11 @@ import UIKit
 
 class MatchingListViewController: UIViewController, UITableViewDataSource, UITableViewDelegate { //매칭 탭 controller
     
-    @IBOutlet weak var segementedControl: UISegmentedControl!
+//    @IBOutlet weak var segementedControl: UISegmentedControl!
     @IBOutlet weak var MatchingListTable: UITableView!
-    @IBAction func matchingListSegmented(_ sender: Any) {
-        MatchingListTable.reloadData()
-    }
+//    @IBAction func matchingListSegmented(_ sender: Any) {
+//        MatchingListTable.reloadData()
+//    }
     
     //let matchSchedule = DateFormatter()
     //matchSchedule.locale = Locale(identifier: "ko_kr")
