@@ -10,11 +10,11 @@ import UIKit
 
 class MatchingListViewController: UIViewController, UITableViewDataSource, UITableViewDelegate { //매칭 탭 controller
     
-    @IBOutlet weak var segementedControl: UISegmentedControl!
+//    @IBOutlet weak var segementedControl: UISegmentedControl!
     @IBOutlet weak var MatchingListTable: UITableView!
-    @IBAction func matchingListSegmented(_ sender: Any) {
-        MatchingListTable.reloadData()
-    }
+//    @IBAction func matchingListSegmented(_ sender: Any) {
+//        MatchingListTable.reloadData()
+//    }
     
 //    var matches: [Match] = [ // 예시 데이터
 //        Match(myTeam: Team(name: "아울스", recruitingPosition: ["1", "3"], location: "서울시 강남구", rating: "1000", teamImage: "team1", win: 3, lose: 1), matchDate: "201805011350", matchLocation: "서울시 강남구"),
