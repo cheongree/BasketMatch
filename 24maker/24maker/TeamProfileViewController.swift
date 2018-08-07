@@ -16,9 +16,21 @@ class TeamProfileViewController: UIViewController {
     @IBOutlet weak var total: UILabel!
     @IBOutlet weak var win: UILabel!
     @IBOutlet weak var lose: UILabel!
+    @IBOutlet weak var teamImage: UIImageView!
+    
+    var team : Team?
     
 
     
+    override func viewWillAppear(_ animated: Bool) {
+        teamName.text = team?.name
+        location.text = team?.location
+        teamRating.text = team?.rating
+        total.text = String((team?.win)! + (team?.lose)!)
+        win.text = String((team?.win)!)
+        lose.text = String((team?.lose)!)
+        teamImage.image = UIImage(named: (team?.teamImage)!)
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -90,7 +90,7 @@
                                             <outlet property="teamRanking" destination="6iN-wh-3ew" id="f97-D8-Yuf"/>
                                             <outlet property="teamRating" destination="cJH-Ko-68g" id="EJZ-IY-Tap"/>
                                             <outlet property="teamRecord" destination="rXd-UF-XKo" id="4sh-GL-lsO"/>
-                                            <segue destination="mn6-Rx-WoS" kind="show" id="dC7-KL-1HA"/>
+                                            <segue destination="ZDG-mp-Rf7" kind="show" id="8uy-3y-1jG"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -112,52 +112,13 @@
             </objects>
             <point key="canvasLocation" x="992.79999999999995" y="1396.5517241379312"/>
         </scene>
-        <!--Team Profile View Controller-->
-        <scene sceneID="Qct-dq-JhB">
+        <!--teamProfile-->
+        <scene sceneID="J5N-4y-7xn">
             <objects>
-                <viewController id="mn6-Rx-WoS" customClass="TeamProfileViewController" customModule="_4maker" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="15k-uV-adX">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="win" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MoV-7u-Wep">
-                                <rect key="frame" x="171" y="308" width="32" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="total" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4du-9c-fQZ">
-                                <rect key="frame" x="59" y="308" width="42" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qaX-bh-89X">
-                                <rect key="frame" x="107" y="98" width="160" height="160"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="lose" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Bw-Fe-UHY">
-                                <rect key="frame" x="272" y="308" width="42" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="B3c-8U-1t9"/>
-                    </view>
-                    <connections>
-                        <outlet property="lose" destination="9Bw-Fe-UHY" id="hA2-G9-Crg"/>
-                        <outlet property="total" destination="4du-9c-fQZ" id="UKR-fk-pGZ"/>
-                        <outlet property="win" destination="MoV-7u-Wep" id="Sgb-d7-Mmg"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="v3z-Ts-HsR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewControllerPlaceholder storyboardName="teamProfile" id="ZDG-mp-Rf7" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yIS-Sh-tCw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1941.5999999999999" y="1396.5517241379312"/>
+            <point key="canvasLocation" x="1903" y="1403"/>
         </scene>
     </scenes>
     <resources>

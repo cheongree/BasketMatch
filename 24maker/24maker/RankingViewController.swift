@@ -41,6 +41,15 @@ class RankingViewController: UIViewController, UITableViewDataSource, UITableVie
         // Dispose of any resources that can be recreated.
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let indexPath = rankingTable.indexPathForSelectedRow,
+            let detailVC = segue.destination as? TeamProfileViewController {
+            let teamsOrdered = teams.sorted {Int($0.rating)! > Int($1.rating)!}
+            let selectedTeam : Team = teamsOrdered[indexPath.row]
+            detailVC.team = selectedTeam
+        }
+    }
+    
 
     /*
     // MARK: - Navigation
