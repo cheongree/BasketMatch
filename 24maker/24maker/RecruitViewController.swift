@@ -70,11 +70,8 @@ class RecruitViewController: UIViewController, UITableViewDataSource, UITableVie
                 detailVC.team = selectedTeam
         }
     }
-    
 
-    
-    
-    //코드 짜는중.....
+    //
     
 //    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
 //        let vc = storyboard?.instantiateViewController(withIdentifier: "RecruitProfileViewController") as? RecruitProfileViewController
@@ -82,7 +79,7 @@ class RecruitViewController: UIViewController, UITableViewDataSource, UITableVie
  //       vc?.profilePosition = players[indexPath.row].positionPrint()
   //      self.navigationController?.pushViewController(vc!, animated: true)
         
-    }
+
     
   //  override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
 //        if let indexPath = tableView.indexPathForSelectedRow, let memberDetail = segue.destination as? RecruitProfileViewController{ let selected : Player = RecruitMemberTableViewCell[indexPath.row]
@@ -109,3 +106,5 @@ class RecruitViewController: UIViewController, UITableViewDataSource, UITableVie
 
 
 
+
+}
