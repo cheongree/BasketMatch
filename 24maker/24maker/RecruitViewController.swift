@@ -16,19 +16,22 @@ class RecruitViewController: UIViewController, UITableViewDataSource, UITableVie
         recruitTableView.reloadData()
         
     }
-    var teams: [Team] = [
-        Team(name: "아울스", recruitingPosition: ["1", "3"], location: "서울시 강남구", rating: "1000", teamImage: "team1", win: 3, lose: 1),
-        Team(name: "토파즈", recruitingPosition: ["2"], location: "인천시 서구", rating: "1300", teamImage: "team2", win: 43, lose: 28),
-        Team(name: "MSA", recruitingPosition: ["4", "5"], location: "경기도 광명시", rating: "1200", teamImage: "team3", win: 32, lose: 32),
-        Team(name: "닥터바스켓", recruitingPosition: ["1", "3", "5"], location: "강원도 춘천시", rating: "1400", teamImage: "team4", win: 13, lose: 3)
-    ]
+//    var teams: [Team] = [
+//        Team(name: "아울스", recruitingPosition: ["1", "3"], location: "서울시 강남구", rating: "1000", teamImage: "team1", win: 3, lose: 1),
+//        Team(name: "토파즈", recruitingPosition: ["2"], location: "인천시 서구", rating: "1300", teamImage: "team2", win: 43, lose: 28),
+//        Team(name: "MSA", recruitingPosition: ["4", "5"], location: "경기도 광명시", rating: "1200", teamImage: "team3", win: 32, lose: 32),
+//        Team(name: "닥터바스켓", recruitingPosition: ["1", "3", "5"], location: "강원도 춘천시", rating: "1400", teamImage: "team4", win: 13, lose: 3)
+//    ]
     
-    var players: [Player] = [
-        Player(name: "김조던", position: ["1", "3"], location: "서울시 성북구", playerImage: "profile", height: 193, weight: 87),
-        Player(name: "박카레", position: ["2"], location: "서울시 강남구", playerImage: "profile", height: 191, weight: 83),
-        Player(name: "야오밍", position: ["4", "5"], location: "서울시 성동구", playerImage: "profile", height: 212, weight: 103),
-        Player(name: "서브룩", position: ["1", "3", "5"], location: "서울시 중구", playerImage: "profile", height: 194, weight: 90)
-    ]
+    
+    
+    
+//    var players: [Player] = [
+//        Player(name: "김조던", position: ["1", "3"], location: "서울시 성북구", playerImage: "profile", height: 193, weight: 87),
+//        Player(name: "박카레", position: ["2"], location: "서울시 강남구", playerImage: "profile", height: 191, weight: 83),
+//        Player(name: "야오밍", position: ["4", "5"], location: "서울시 성동구", playerImage: "profile", height: 212, weight: 103),
+//        Player(name: "서브룩", position: ["1", "3", "5"], location: "서울시 중구", playerImage: "profile", height: 194, weight: 90)
+//    ]
     
     func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
     

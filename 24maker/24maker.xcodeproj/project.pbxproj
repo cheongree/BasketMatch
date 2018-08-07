@@ -36,6 +36,7 @@
 		C51BD26320F5D77B00B19AF5 /* CHControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51BD25720F5D77B00B19AF5 /* CHControls.swift */; };
 		C51BD26420F5D77B00B19AF5 /* RecordButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51BD25820F5D77B00B19AF5 /* RecordButton.swift */; };
 		C570BC34211827BE00FCF3FE /* TeamProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C570BC33211827BD00FCF3FE /* TeamProfileViewController.swift */; };
+		C570BC36211969E900FCF3FE /* Members.swift in Sources */ = {isa = PBXBuildFile; fileRef = C570BC35211969E900FCF3FE /* Members.swift */; };
 		C5A0DFB120F48C16005ADFA0 /* UIViewControllerKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A0DFB020F48C15005ADFA0 /* UIViewControllerKeyboard.swift */; };
 		C5FFE65220F328B6007984D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5FFE65120F328B6007984D6 /* AppDelegate.swift */; };
 		C5FFE65420F328B6007984D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5FFE65320F328B6007984D6 /* ViewController.swift */; };
@@ -94,6 +95,7 @@
 		C51BD25720F5D77B00B19AF5 /* CHControls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHControls.swift; sourceTree = "<group>"; };
 		C51BD25820F5D77B00B19AF5 /* RecordButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordButton.swift; sourceTree = "<group>"; };
 		C570BC33211827BD00FCF3FE /* TeamProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamProfileViewController.swift; sourceTree = "<group>"; };
+		C570BC35211969E900FCF3FE /* Members.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Members.swift; sourceTree = "<group>"; };
 		C5A0DFB020F48C15005ADFA0 /* UIViewControllerKeyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerKeyboard.swift; sourceTree = "<group>"; };
 		C5FFE64E20F328B6007984D6 /* 24maker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 24maker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5FFE65120F328B6007984D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -183,6 +185,7 @@
 				C5FFE67F20F34745007984D6 /* UIViewControllerModal.swift */,
 				C5FFE65120F328B6007984D6 /* AppDelegate.swift */,
 				C5FFE65320F328B6007984D6 /* ViewController.swift */,
+				C570BC35211969E900FCF3FE /* Members.swift */,
 				24A29DF12111B7E900EAD156 /* structFor.swift */,
 				C5FFE65520F328B6007984D6 /* Main.storyboard */,
 				24D5A0A021154A7F00802322 /* S1.storyboard */,
@@ -367,6 +370,7 @@
 			files = (
 				C51BD25920F5D77B00B19AF5 /* DrawingCanvasView.swift in Sources */,
 				2CF3F66F211429E900F55BF1 /* RankingTableTableViewCell.swift in Sources */,
+				C570BC36211969E900FCF3FE /* Members.swift in Sources */,
 				C51BD25D20F5D77B00B19AF5 /* CHViews.swift in Sources */,
 				24A29DF02111B4AC00EAD156 /* MatchScheduleTableViewCell.swift in Sources */,
 				C51BD25B20F5D77B00B19AF5 /* NavigationControllers.swift in Sources */,
