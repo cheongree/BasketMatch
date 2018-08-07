@@ -22,6 +22,7 @@
 		24F6A434211183B6007D1FD0 /* RecruitTeamTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F6A433211183B6007D1FD0 /* RecruitTeamTableViewCell.swift */; };
 		2C305723211301DD008CAB14 /* MatchingListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C305722211301DD008CAB14 /* MatchingListViewController.swift */; };
 		2C305725211306FE008CAB14 /* MatchingListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C305724211306FE008CAB14 /* MatchingListTableViewCell.swift */; };
+		2C6A58092119977B00CD2319 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2C6A58082119977B00CD2319 /* GoogleService-Info.plist */; };
 		2CF3F66F211429E900F55BF1 /* RankingTableTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF3F66E211429E900F55BF1 /* RankingTableTableViewCell.swift */; };
 		2CF3F67321142DA500F55BF1 /* RankingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF3F67221142DA500F55BF1 /* RankingViewController.swift */; };
 		C51BD25920F5D77B00B19AF5 /* DrawingCanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51BD24D20F5D77B00B19AF5 /* DrawingCanvasView.swift */; };
@@ -83,6 +84,7 @@
 		24F6A433211183B6007D1FD0 /* RecruitTeamTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecruitTeamTableViewCell.swift; sourceTree = "<group>"; };
 		2C305722211301DD008CAB14 /* MatchingListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchingListViewController.swift; sourceTree = "<group>"; };
 		2C305724211306FE008CAB14 /* MatchingListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchingListTableViewCell.swift; sourceTree = "<group>"; };
+		2C6A58082119977B00CD2319 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2CF3F66E211429E900F55BF1 /* RankingTableTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingTableTableViewCell.swift; sourceTree = "<group>"; };
 		2CF3F67221142DA500F55BF1 /* RankingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingViewController.swift; sourceTree = "<group>"; };
 		C51BD24D20F5D77B00B19AF5 /* DrawingCanvasView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawingCanvasView.swift; sourceTree = "<group>"; };
@@ -164,6 +166,7 @@
 		C5FFE64520F328B6007984D6 = {
 			isa = PBXGroup;
 			children = (
+				2C6A58082119977B00CD2319 /* GoogleService-Info.plist */,
 				C51BD24C20F5D77B00B19AF5 /* PilotPlant */,
 				C5FFE65020F328B6007984D6 /* 24maker */,
 				C5FFE66520F328B7007984D6 /* 24makerTests */,
@@ -349,6 +352,7 @@
 				C5FFE65C20F328B7007984D6 /* LaunchScreen.storyboard in Resources */,
 				C5FFE65920F328B7007984D6 /* Assets.xcassets in Resources */,
 				24D5A0A321154A8C00802322 /* S2.storyboard in Resources */,
+				2C6A58092119977B00CD2319 /* GoogleService-Info.plist in Resources */,
 				C5FFE65720F328B6007984D6 /* Main.storyboard in Resources */,
 				2461AB0F21197FF000897262 /* teamProfile.storyboard in Resources */,
 			);

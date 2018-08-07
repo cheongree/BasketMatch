@@ -40,7 +40,7 @@ class RecruitProfileViewController: UIViewController {
             profileName.text = item.name
             profileHeight.text = "\(item.height)cm"
             profileWeight.text = "\(item.weight)kg"
-            profilePosition.text = "\(item.position)"
+            profilePosition.text = item.positionPrint()
             profilePicture.image = UIImage(named: item.playerImage)
         }
         
