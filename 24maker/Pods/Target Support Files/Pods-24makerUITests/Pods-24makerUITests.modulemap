@@ -1,0 +1,6 @@
+framework module Pods_24makerUITests {
+  umbrella header "Pods-24makerUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
